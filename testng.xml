@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- 套件 ，parallel 收否需要用到并发-->
+<suite parallel="false" name="Suite">
+    <!-- 测试集 -->
+    <test name="Login">
+        <!-- 测试类集合 -->
+        <classes>
+            <!-- 测试集 -->
+            <class name="com.shinemo1.learn.LoginCaseV3Test"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Recharge">
+        <!-- 测试类集合 -->
+        <classes>
+            <!-- 测试集 -->
+            <class name="com.shinemo1.learn.RechargeCaseTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
